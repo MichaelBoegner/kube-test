@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: synergychat-crawler-configmap
+data:
+  crawlerPort: "8080"
+  crawlerKeywords: "love,hate,joy,sadness,anger,disgust,fear,surprise"
